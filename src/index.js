@@ -153,7 +153,7 @@ app.get("/coupon/search/:code", (req, res) => {
     })
     .catch(e => {
       console.log(e);
-      res.sendStatus(404)
+      res.sendStatus(500)
     })
 });
 
